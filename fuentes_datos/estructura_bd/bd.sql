@@ -82,6 +82,7 @@ CREATE TABLE reprobacion
   id_estudiante   varchar(8) NOT NULL,
   id_curso        varchar(8) NOT NULL,
   n_reprobaciones int        NOT NULL,
+  id_semestre     int        NOT NULL,
   PRIMARY KEY (id_estudiante, id_curso),
   CHECK (n_reprobaciones >= 0)
 );

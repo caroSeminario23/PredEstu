@@ -4,9 +4,9 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -193,
-    "scrollLeft": -232.3132,
-    "zoomLevel": 0.97,
+    "scrollTop": -96.7563,
+    "scrollLeft": -40.5779,
+    "zoomLevel": 1,
     "show": 501,
     "database": 16,
     "databaseName": "",
@@ -386,33 +386,6 @@
         "meta": {
           "updateAt": 1751854011422,
           "createAt": 1751853324482
-        }
-      },
-      "O0h8ysWNuL6ipX14-Cyql": {
-        "id": "O0h8ysWNuL6ipX14-Cyql",
-        "name": "Alumno_matriculado",
-        "comment": "",
-        "columnIds": [
-          "kDrpN5FeSuryHBmBJuxat",
-          "FwPvzV8tt0uDoqZc-Tb8e",
-          "BWFm7sWKDdgCUx0ldaoMY"
-        ],
-        "seqColumnIds": [
-          "kDrpN5FeSuryHBmBJuxat",
-          "FwPvzV8tt0uDoqZc-Tb8e",
-          "BWFm7sWKDdgCUx0ldaoMY"
-        ],
-        "ui": {
-          "x": 518,
-          "y": 190,
-          "zIndex": 384,
-          "widthName": 112,
-          "widthComment": 60,
-          "color": ""
-        },
-        "meta": {
-          "updateAt": 1751853790950,
-          "createAt": 1751853711487
         }
       }
     },
@@ -1677,66 +1650,6 @@
           "createAt": 1751853609397
         }
       },
-      "kDrpN5FeSuryHBmBJuxat": {
-        "id": "kDrpN5FeSuryHBmBJuxat",
-        "tableId": "O0h8ysWNuL6ipX14-Cyql",
-        "name": "id_alum_matric",
-        "comment": "",
-        "dataType": "",
-        "default": "",
-        "options": 10,
-        "ui": {
-          "keys": 1,
-          "widthName": 81,
-          "widthComment": 60,
-          "widthDataType": 60,
-          "widthDefault": 60
-        },
-        "meta": {
-          "updateAt": 1751853743206,
-          "createAt": 1751853720390
-        }
-      },
-      "FwPvzV8tt0uDoqZc-Tb8e": {
-        "id": "FwPvzV8tt0uDoqZc-Tb8e",
-        "tableId": "O0h8ysWNuL6ipX14-Cyql",
-        "name": "id_escuela",
-        "comment": "",
-        "dataType": "int",
-        "default": "",
-        "options": 8,
-        "ui": {
-          "keys": 0,
-          "widthName": 60,
-          "widthComment": 60,
-          "widthDataType": 60,
-          "widthDefault": 60
-        },
-        "meta": {
-          "updateAt": 1751853766934,
-          "createAt": 1751853766933
-        }
-      },
-      "BWFm7sWKDdgCUx0ldaoMY": {
-        "id": "BWFm7sWKDdgCUx0ldaoMY",
-        "tableId": "O0h8ysWNuL6ipX14-Cyql",
-        "name": "id_semestre",
-        "comment": "",
-        "dataType": "int",
-        "default": "",
-        "options": 8,
-        "ui": {
-          "keys": 0,
-          "widthName": 65,
-          "widthComment": 60,
-          "widthDataType": 60,
-          "widthDefault": 60
-        },
-        "meta": {
-          "updateAt": 1751853782078,
-          "createAt": 1751853782078
-        }
-      },
       "WHZYKSMUk3zaQrkfQIGYX": {
         "id": "WHZYKSMUk3zaQrkfQIGYX",
         "tableId": "Q8DlQGtOMnG6YgX53nJnm",
@@ -2217,62 +2130,6 @@
         "meta": {
           "updateAt": 1751853609397,
           "createAt": 1751853609397
-        }
-      },
-      "4jF6jEWPw0ZA4NvpSDnlG": {
-        "id": "4jF6jEWPw0ZA4NvpSDnlG",
-        "identification": false,
-        "relationshipType": 16,
-        "startRelationshipType": 2,
-        "start": {
-          "tableId": "htUeBR48Mxk-YswYGmgja",
-          "columnIds": [
-            "e34HocTB2N-IO6FRsGD3T"
-          ],
-          "x": 378,
-          "y": 145.33333333333334,
-          "direction": 2
-        },
-        "end": {
-          "tableId": "O0h8ysWNuL6ipX14-Cyql",
-          "columnIds": [
-            "FwPvzV8tt0uDoqZc-Tb8e"
-          ],
-          "x": 518,
-          "y": 254,
-          "direction": 1
-        },
-        "meta": {
-          "updateAt": 1751853766934,
-          "createAt": 1751853766934
-        }
-      },
-      "JNQ-rGUxxSYB3CjcerIj5": {
-        "id": "JNQ-rGUxxSYB3CjcerIj5",
-        "identification": false,
-        "relationshipType": 16,
-        "startRelationshipType": 2,
-        "start": {
-          "tableId": "Wwes40NSZTWnk_8aSAHui",
-          "columnIds": [
-            "F5RCUnhvSEPg9YzKDdDEh"
-          ],
-          "x": 945.785,
-          "y": 316.502,
-          "direction": 1
-        },
-        "end": {
-          "tableId": "O0h8ysWNuL6ipX14-Cyql",
-          "columnIds": [
-            "BWFm7sWKDdgCUx0ldaoMY"
-          ],
-          "x": 821,
-          "y": 254,
-          "direction": 2
-        },
-        "meta": {
-          "updateAt": 1751853782078,
-          "createAt": 1751853782078
         }
       },
       "0omP8Z_D5kc7-dMxm_dIg": {
